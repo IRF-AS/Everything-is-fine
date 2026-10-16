@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Little Note for Jennie 🌷</title>
+  <style>
+    :root { --ink:#514b5b; --muted:#83798b; --pink:#f3cbd7; --paper:#fffdf9; --lav:#e9e1f7; }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; min-height:100vh; padding:28px 14px 42px;
+      font-family: Georgia, 'Times New Roman', serif; color:var(--ink);
+      background: radial-gradient(circle at 12% 15%, #fff8fb 0 9%, transparent 10%),
+                  radial-gradient(circle at 88% 75%, #f5f0ff 0 12%, transparent 13%),
+                  linear-gradient(135deg,#fbe9ef,#f2edff 55%,#fff5e8);
+      display:flex; align-items:center; justify-content:center; overflow-x:hidden;
+    }
+    .sparkles { position:fixed; inset:0; pointer-events:none; overflow:hidden; }
+    .sparkles span { position:absolute; color:#c39bad; opacity:.65; animation: float 7s ease-in-out infinite; }
+    .sparkles span:nth-child(1){top:8%;left:8%;font-size:22px}
+    .sparkles span:nth-child(2){top:17%;right:10%;font-size:18px;animation-delay:1s}
+    .sparkles span:nth-child(3){bottom:13%;left:7%;font-size:20px;animation-delay:2s}
+    .sparkles span:nth-child(4){bottom:9%;right:8%;font-size:24px;animation-delay:3s}
+    @keyframes float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-12px) rotate(8deg)} }
+    .letter {
+      width:min(100%,720px); position:relative; background:var(--paper);
+      padding:clamp(25px,6vw,54px); border:1px solid #f0dce5; border-radius:22px;
+      box-shadow:0 18px 55px #9b82951f, 0 4px 12px #9b829512;
+    }
+    .letter:before { content:''; position:absolute; inset:10px; border:1px dashed #e8cbd8; border-radius:15px; pointer-events:none; }
+    .content { position:relative; z-index:1; }
+    .top { text-align:center; margin-bottom:28px; }
+    .stamp { display:inline-grid; place-items:center; width:58px;height:58px;border-radius:50%;background:#fae5ed;border:1px solid #efc8d7;font-size:27px;margin-bottom:12px; }
+    .eyebrow { font: 700 11px/1.4 Arial,sans-serif; text-transform:uppercase; letter-spacing:3px; color:#b17e96; }
+    h1 { font-size:clamp(27px,5vw,38px); line-height:1.2; font-weight:normal; margin:9px 0 7px; color:#735b72; }
+    .subtitle { font:13px Arial,sans-serif; color:#9b8b9a; letter-spacing:.4px; }
+    .divider { display:flex; align-items:center; gap:12px; margin:24px 0; color:#c28da5; }
+    .divider:before,.divider:after { content:''; height:1px; background:#edd8e1; flex:1; }
+    p { font-size:16.5px; line-height:1.85; margin:0 0 17px; }
+    .greeting { font-size:20px; color:#9c6d87; margin-bottom:18px; }
+    .note { background:#fff5f8; border-left:3px solid #e8b9cb; border-radius:0 10px 10px 0; padding:14px 17px; margin:20px 0; }
+    .note p { margin:0; }
+    .signoff { margin-top:26px; }
+    .signature { color:#9c6d87; font-size:22px; font-style:italic; margin-top:7px; }
+    .footer { text-align:center; font:11px Arial,sans-serif; color:#b09eae; letter-spacing:1px; margin-top:30px; }
+    .tiny { font-size:13px; }
+    @media(max-width:480px){ body{padding:15px 10px 25px}.letter{padding:28px 22px}.letter:before{inset:7px}p{font-size:15.5px;line-height:1.8} }
+  </style>
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"><span>✦</span><span>♡</span><span>✿</span><span>✧</span></div>
+  <main class="letter">
+    <div class="content">
+      <header class="top">
+        <div class="stamp">🌷</div>
+        <div class="eyebrow">A tiny note for you</div>
+        <h1>Hey, Jennie!</h1>
+        <div class="subtitle">A little update, a little apology, and a few silly jokes ♡</div>
+      </header>
+
+      <p class="greeting">Dear Jennie,</p>
+
+      <p>First of all, everything is okay now! I talked to my bro, and somehow, he agreed. Before speaking to him, I was honestly so scared that I even prayed to God because I had no idea what would happen if everything came out.</p>
+
+      <p>You know why I was so worried? If my mother ever found out that I was in a relationship or even talking to a girl like you, she would be completely shocked. She trusts me a lot, and in her view, boys and girls can’t really just be friends—she doesn’t believe much in love or relationships either. If she found out about you or any of my other female friends, I genuinely think it would break her heart. 🥲 Thankfully, things are back to normal now, so you don’t need to worry about that part anymore.</p>
+
+      <div class="divider">✿</div>
+
+      <p>But now I have one very important question for you… <strong>why did you cry for me? 😭</strong> We’ve known each other for less than six months, and you were already missing me that much? 😏😏 You’ve never cried for Narcisa—not even Ayu, ahem ahem! 😂 Okay, okay, I’m kidding. Don’t come after me for that one!</p>
+
+      <p>Jokes aside, I promise I’ll try not to make any more reckless decisions. And please, if you ever want to meet me, give me a warning first instead of surprising me out of nowhere. I have a feeling you might slap me, and I’d rather not have our first in-person interaction begin like that. 🥲😂 At least give me time to show up wearing my bike helmet for protection! 😭</p>
+
+      <div class="note">
+        <p><strong>But seriously, Jennie…</strong> I’m genuinely sorry that I made you cry. I was overwhelmed by the situation and didn’t know what to think or how to respond at that moment. I never wanted to hurt you or make you feel that way. You didn’t deserve to be upset because of something I was struggling to handle, and I’m truly sorry.</p>
+      </div>
+
+      <p>Anyway, please take good care of yourself, get some proper rest, and don’t overthink everything. Things are okay now, and I hope you can feel a little more at ease too.</p>
+
+      <p>Have a peaceful night, Jennie. Stay safe, take care of yourself, and keep being your wonderfully chaotic self. 😭😂</p>
+
+      <div class="signoff">
+        <p>Good night, Jennie! 🌙</p>
+        <div class="signature">Peace out! ✌🏻</div>
+      </div>
+      <div class="footer">MADE WITH CARE · FRIENDSHIP EDITION ♡</div>
+    </div>
+  </main>
+</body>
+</html>
